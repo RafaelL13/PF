@@ -1,0 +1,15 @@
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\bin\Debug\netstandard2.0\StadiumFood.deps.json
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\bin\Debug\netstandard2.0\StadiumFood.dll
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\bin\Debug\netstandard2.0\ref\StadiumFood.dll
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\bin\Debug\netstandard2.0\StadiumFood.pdb
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\Registrarse.xaml.g.cs
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\StadiumFood.AssemblyInfoInputs.cache
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\StadiumFood.AssemblyInfo.cs
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\StadiumFood.dll
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\ref\StadiumFood.dll
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\StadiumFood.pdb
+C:\Users\Ing. Rafael Lopez\source\repos\StadiumFood\StadiumFood\StadiumFood\obj\Debug\netstandard2.0\StadiumFood.csprojAssemblyReference.cache

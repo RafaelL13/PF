@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="StadiumFood.Registrarse">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Grid.Row="0" Padding="20,60">
+                <Entry x:Name="User" Placeholder="Usuario" PlaceholderColor="Black"/>
+                <Entry x:Name="Nombre" Placeholder="Nombre Completo" PlaceholderColor="Black"/>
+                <Entry x:Name="Correo" Placeholder="Correo" PlaceholderColor="Black"/>
+                <Entry x:Name="Contacto" Placeholder="Telefono" PlaceholderColor="Black"/>
+                
+                <Grid Padding="80,0,0,0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="M" FontSize="30"/>
+                    <Switch x:Name="Genero"/>
+                    <Label Text="F" FontSize="30"/>
+                </StackLayout>
+                </Grid>
+                <Entry  x:Name="Contraseña" Placeholder="Contraseña" PlaceholderColor="Black"  IsPassword="True" />
+                <Label Text="Fecha de Nacimiento" HorizontalOptions="Center" FontSize="20"/>
+                <DatePicker x:Name="Fecha" FontSize="20" HorizontalOptions="Center" />
+                <Button Text="Registrarse" Clicked="Registar_Click" FontSize="20" Padding=" 20,20"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
