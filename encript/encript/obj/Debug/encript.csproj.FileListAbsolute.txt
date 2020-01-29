@@ -1,0 +1,9 @@
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\bin\Debug\encript.exe.config
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\bin\Debug\encript.exe
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\bin\Debug\encript.pdb
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.csprojAssemblyReference.cache
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.Form1.resources
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.Properties.Resources.resources
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.csproj.GenerateResource.cache
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.exe
+C:\Users\Ing. Rafael Lopez\source\repos\encript\encript\obj\Debug\encript.pdb
