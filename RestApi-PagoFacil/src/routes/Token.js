@@ -25,6 +25,7 @@ router.get('/ConsultarToken/:NumEmpleado&:IdEmpresa',async (req, res) => {
         const pool = await poolPromise;
         const result = await pool.request().query('EXEC SPToken @NumEmpleado = '+ NumEmpleado +' ,@IdEmpresa = '+ IdEmpresa +'', )      
         res.json(result.recordset) ; 
+        console.log(result.recordset);   
     } catch (err) {
         res.status(500)
         res.send(err.message)

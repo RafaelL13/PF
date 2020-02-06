@@ -31,6 +31,21 @@ router.get('/Consultar/:id',async (req, res) => {
         res.send(err.message)
       }  
 });
+router.get('/ConsultarDatos/:NumEmpleado&:IdEmpresa',async (req, res) => {
+    const NumEmpleado = req.params.NumEmpleado;      
+    const IdEmpresa = req.params.IdEmpresa;   
+    console.log(NumEmpleado,IdEmpresa); 
+    try {       
+        const pool = await poolPromise;
+        const result = await pool.request()        
+        .query('EXEC SPConsultarDatosGenerales @NumEpleado = '+ NumEmpleado +', @IdEmpresa = '+ IdEmpresa +'')      
+        res.json(result.recordset)        
+        console.log(result.recordset);
+    } catch (err) {
+        res.status(500)
+        res.send(err.message)
+      }  
+});
 // Add a new user EXEC SPAgregarEmpleados @NumEmpleado,@IdEmpresa,@NomEmpleado,@Correo,@Telefono,@Estatus,@IdVehiculo
 router.post('/Agregar/',async (req, res) => {
     const { NumEmpleado, IdEmpresa, NomEmpleado, Correo, Telefono, Estatus, IdVehiculo } = req.body;

@@ -11,7 +11,8 @@ console.log(IdEmpleado,Contraseña);
         const pool = await poolPromise;
         const result = await pool.request().query('EXEC SPLoginEmpleado @IdEmpleado = '+ IdEmpleado +' ,@Contraseña = '+ Contraseña +'', )      
         res.status(201)
-        res.send(result.recordset); 
+        res.send(result.recordset);
+        console.log(result.recordset); 
     } catch (err) {
         res.status(500)
         res.send(err.message)
