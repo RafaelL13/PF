@@ -885,11 +885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
+      "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
       "projectName": "StadiumFood",
-      "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
+      "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
       "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\obj\\",
+      "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

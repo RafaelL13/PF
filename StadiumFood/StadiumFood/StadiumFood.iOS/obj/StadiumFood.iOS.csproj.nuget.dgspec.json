@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj": {}
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj": {
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj",
         "projectName": "StadiumFood.iOS",
-        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj",
+        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\StadiumFood.iOS.csproj",
         "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj": {
-                "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj"
+              "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj": {
+                "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj": {
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
+        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
         "projectName": "StadiumFood",
-        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
+        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\StadiumFood.csproj",
         "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Projects SF\\StadiumFood\\StadiumFood\\StadiumFood\\obj\\",
+        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\StadiumFood\\StadiumFood\\StadiumFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
