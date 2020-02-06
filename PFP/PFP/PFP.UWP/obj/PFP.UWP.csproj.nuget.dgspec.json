@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj": {}
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj": {
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj",
         "projectName": "PFP.UWP",
-        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj",
+        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP.UWP\\PFP.UWP.csproj",
         "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP.UWP\\obj\\",
+        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -35,8 +35,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj": {
-                "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj"
+              "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj": {
+                "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj": {
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj",
+        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj",
         "projectName": "PFP",
-        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj",
+        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj",
         "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\obj\\",
+        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

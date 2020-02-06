@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj": {}
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj": {
+    "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj",
+        "projectUniqueName": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj",
         "projectName": "PFP",
-        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\PFP.csproj",
+        "projectPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\PFP.csproj",
         "packagesPath": "C:\\Users\\Ing. Rafael Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\APP Api\\PFP\\PFP\\PFP\\obj\\",
+        "outputPath": "C:\\Users\\Ing. Rafael Lopez\\3D Objects\\Git Rep\\PFP\\PFP\\PFP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -82,6 +82,18 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.4.0.991537, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

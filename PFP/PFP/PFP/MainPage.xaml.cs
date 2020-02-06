@@ -20,14 +20,14 @@ namespace PFP
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
-    {
-        string Url = "http://192.168.0.12:8080/Login/Empleado/";
+    {               
         HttpClient client = new HttpClient();
-        int Status;
+        int Status,IdEmpresa;
         public MainPage()
         {
             InitializeComponent();
-
+            conexion c = new conexion();
+            String Url = c.getUrlEmp();
             btnIS.Clicked += async (sender, e) =>
             {
                 if (Usuario.Text != null && Contraseña.Text != null)
@@ -47,6 +47,7 @@ namespace PFP
                         String R = Obj.Response;
                         if (R == "User successfully logged in")
                         {
+                            IdEmpresa = Convert.ToInt32(Obj.IdEmpresa);
                             Status = 1;
                         }
                         else if (R == "Incorrect password")
@@ -59,15 +60,16 @@ namespace PFP
                             await DisplayAlert("Alert", "Login Incorrecto", "OK");
                             Status = -1;
                         }
-                    }
-                    if (Status == 1)
-                    {
-                        await DisplayAlert("Success", "Login correcto", "OK");
-                    }
+                    }                    
                 }
                 else
                 {
                     await DisplayAlert("Alert", "Rellene los campos", "OK");
+                }
+                if (Status == 1)
+                {
+                   // await DisplayAlert("Success", "Login correcto", "OK");                    
+                    await Navigation.PushAsync(new Menu(Usuario.Text,IdEmpresa));
                 }
             };            
         }

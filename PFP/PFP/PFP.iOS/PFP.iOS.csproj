@@ -128,6 +128,12 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991537" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="ZXing.Net.Mobile">
+      <Version>2.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="ZXing.Net.Mobile.Forms">
+      <Version>2.4.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -135,5 +141,14 @@
       <Project>{23C8AA52-74B9-47C6-A377-6289B1A569F4}</Project>
       <Name>PFP</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PFP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PFJ.png" />
   </ItemGroup>
 </Project>

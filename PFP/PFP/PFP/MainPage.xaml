@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="PFP.MainPage">
 
-    <StackLayout BackgroundColor="White" >
+    <StackLayout BackgroundColor="Black" >
         <Grid>
             <Grid.RowDefinitions >
                 <RowDefinition Height="Auto" />
@@ -14,15 +14,29 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            
-            <StackLayout Grid.Row="1" Padding="20,20">
-                <Entry x:Name="Usuario" Placeholder="Usuario" PlaceholderColor="Black"/>
-                <Entry x:Name="Contraseña" Placeholder="Contraseña" PlaceholderColor="Black" IsPassword="True" />
-                <StackLayout Orientation="Vertical">
-                    <Button x:Name="btnIS" Text="INICIAR SESION" BackgroundColor="White"  TextColor="Orange" Margin="0,20,0,20" />
-                </StackLayout>
-            </StackLayout>
+            <Image Grid.Row="0" Source="PFJ.png" WidthRequest="100" HeightRequest="200" Margin="30,0"/>
 
+            <StackLayout Grid.Row="1" Margin="0,0">
+                <Label Text="Usuario" TextColor="OrangeRed" BackgroundColor="Black" HorizontalOptions="Center" FontSize="20" HorizontalTextAlignment="Center" />
+                <Frame BorderColor="OrangeRed" CornerRadius="40" Padding="2"
+                       HorizontalOptions="Fill" Margin="60,0" HasShadow="True"
+                       BackgroundColor="Black">
+                    <Entry x:Name="Usuario" TextColor="OrangeRed"  FontSize="20" HorizontalTextAlignment="Center"/>
+                 </Frame>
+                 <Label Text="Contraseña" TextColor="OrangeRed" BackgroundColor="Black" HorizontalOptions="Center" FontSize="20" HorizontalTextAlignment="Center"/>
+                <Frame BorderColor="OrangeRed" CornerRadius="40" Padding="2"
+                       HorizontalOptions="Fill" Margin="60,0" HasShadow="True"
+                       BackgroundColor="Black">
+                    <Entry x:Name="Contraseña" TextColor="OrangeRed" FontSize="20" HorizontalTextAlignment="Center" IsPassword="True"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Orientation="Vertical" Margin="0,20">
+                <Frame BorderColor="OrangeRed" CornerRadius="40" Padding="4"
+                       HorizontalOptions="Fill" Margin="60,0" HasShadow="True"
+                       BackgroundColor="OrangeRed">
+                    <Button x:Name="btnIS" Text="INICIAR SESION" Margin="10,0" BackgroundColor="OrangeRed" TextColor="White" FontSize="26"/>
+                </Frame>
+            </StackLayout>
         </Grid>
 
     </StackLayout>

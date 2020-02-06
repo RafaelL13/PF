@@ -23,28 +23,25 @@ namespace PFP
     {
         [JsonProperty("Response")]
         public string Response { get; set; }
+        [JsonProperty("IdEmpresa")]
+        public string IdEmpresa { get; set; }
     }
-
-    public partial class Respon
+    public partial class DatosEmp
     {
-        public static Respon[] FromJson(string json) => JsonConvert.DeserializeObject<Respon[]>(json, PFP.Converter.Settings);
+        [JsonProperty("Nombre")]
+        public string Nombre { get; set; }
+        [JsonProperty("Empresa")]
+        public string Empresa { get; set; }
+        [JsonProperty("Ejes")]
+        public int Ejes { get; set; }
+        [JsonProperty("Tarifa")]
+        public int Tarifa { get; set; }
+        [JsonProperty("Estatus")]
+        public string Estatus { get; set; }
     }
-
-    public static class Serialize
+    public partial class TokenResp
     {
-        public static string ToJson(this Respon[] self) => JsonConvert.SerializeObject(self, PFP.Converter.Settings);
+        [JsonProperty("TOKEN_ACTUAL")]
+        public string TOKEN_ACTUAL { get; set; }
     }
-
-    internal static class Converter
-    {
-        public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-        {
-            MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-            DateParseHandling = DateParseHandling.None,
-            Converters =
-            {
-                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-            },
-        };
     }
-}

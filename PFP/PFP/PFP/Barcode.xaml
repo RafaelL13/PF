@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
+             mc:Ignorable="d"
+             x:Class="PFP.Barcode">
+    <ContentPage.Content>
+        <Grid Margin="0,100">
+            <StackLayout>
+                <forms:ZXingBarcodeImageView                     
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                IsVisible="True"
+                x:Name="BarcodeGen"
+                BarcodeFormat="CODE_128" 
+                HeightRequest="600"
+                WidthRequest="350">
+                    <forms:ZXingBarcodeImageView.BarcodeOptions>
+                        <zxcm:EncodingOptions Width="300" Height="300" />
+                    </forms:ZXingBarcodeImageView.BarcodeOptions>
+                </forms:ZXingBarcodeImageView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
