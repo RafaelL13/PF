@@ -1,0 +1,23 @@
+{
+  "name": "wsStadiumFood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "YOMERO",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "es6-promise-pool": "^2.5.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mssql": "^6.0.1",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
